@@ -73,6 +73,16 @@ namespace Creep.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] ht {
+            get {
+                object obj = ResourceManager.GetObject("ht", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] one {
             get {
                 object obj = ResourceManager.GetObject("one", resourceCulture);

