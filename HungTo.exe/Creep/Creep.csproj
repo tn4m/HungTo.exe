@@ -121,7 +121,7 @@
     <AppDesigner Include="Properties\" />
     <None Include="Resources\000" />
     <None Include="Resources\cs" />
-    <None Include="Resources\HungTo.exe-main.zip" />
+    <None Include="Resources\ht_msg" />
     <None Include="Resources\one" />
     <None Include="Resources\subox" />
     <None Include="Resources\texticon" />

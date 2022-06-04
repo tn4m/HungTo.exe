@@ -124,6 +124,9 @@
   <data name="ht" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ht;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="ht_msg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ht_msg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="one" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\one;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

