@@ -1,0 +1,16 @@
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\bin\Release\HungTo.exe.config
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\bin\Release\HungTo.exe
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\bin\Release\HungTo.pdb
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\Creep.csproj.AssemblyReference.cache
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\Creep.csproj.SuggestedBindingRedirects.cache
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\MainWindow.g.cs
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\App.g.cs
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\HungTo_MarkupCompile.cache
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\HungTo_MarkupCompile.lref
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\MainWindow.baml
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\HungTo.g.resources
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\Creep.Properties.Resources.resources
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\Creep.csproj.GenerateResource.cache
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\Creep.csproj.CoreCompileInputs.cache
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\HungTo.exe
+C:\Users\azureuser\Downloads\HungTo.exe-main\HungTo.exe-main\HungTo.exe\Creep\obj\Release\HungTo.pdb
