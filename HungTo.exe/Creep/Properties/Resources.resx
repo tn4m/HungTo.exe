@@ -127,6 +127,9 @@
   <data name="ht_msg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ht_msg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="np" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\np;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="one" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\one;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -144,8 +147,5 @@
   </data>
   <data name="windl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\windl;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="_000" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\000;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
