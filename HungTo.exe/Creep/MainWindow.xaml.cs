@@ -82,10 +82,6 @@ namespace Creep
             editKey.SetValue("Wait", @"C:\Windows\" + "cursor_ht.cur");
             editKey.Close();
 
-            editKey = Registry.LocalMachine.CreateSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer");
-            editKey.SetValue("UseDefaultTile", "1", RegistryValueKind.DWord);
-            editKey.Close();
-
             editKey = Registry.CurrentUser.CreateSubKey(@"Control Panel\Desktop");
             editKey.SetValue("Wallpaper", @"C:\Windows\ht.jpg");
             editKey.Close();
