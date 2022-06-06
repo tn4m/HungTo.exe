@@ -127,6 +127,12 @@
   <data name="ht_msg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ht_msg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="ht_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ht_small;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HungTo_cn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HungTo_cn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="np" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\np;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

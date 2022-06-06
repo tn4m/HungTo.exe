@@ -122,6 +122,8 @@
     <AppDesigner Include="Properties\" />
     <None Include="Resources\cs" />
     <None Include="Resources\ht_msg" />
+    <None Include="Resources\ht_small" />
+    <None Include="Resources\HungTo_cn" />
     <None Include="Resources\np" />
     <None Include="Resources\one" />
     <None Include="Resources\subox" />

